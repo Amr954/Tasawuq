@@ -2,6 +2,10 @@ import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+import hero1 from '../assets/img/banner_Hero1.jpg';
+import hero2 from '../assets/img/banner_Hero2.jpg';
+import hero3 from '../assets/img/banner_Hero3.jpg';
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -17,7 +21,7 @@ function HeroSlider() {
 
         <>
 
-            <div className="hero">
+            <div className="</div>hero">
                 <div className="container">
                     <Swiper
                         spaceBetween={30}
@@ -41,7 +45,7 @@ function HeroSlider() {
                                 <p>Windows Xp/10/7/8 Ps3, TV Box</p>
                                 <Link to="/" className='btn'>Shop Now</Link>
                             </div>
-                            <img src="./src/assets/img/banner_Hero1.jpg" alt="hero1" />
+                            <img src={hero1} alt="hero1" />
                         </SwiperSlide>
 
                         <SwiperSlide>
@@ -51,7 +55,7 @@ function HeroSlider() {
                                 <p>Windows Xp/10/7/8 Ps3, TV Box</p>
                                 <Link to="/" className='btn'>Shop Now</Link>
                             </div>
-                            <img src="./src/assets/img/banner_Hero2.jpg" alt="hero2" />
+                            <img src={hero2} alt="hero2" />
                         </SwiperSlide>
 
                         <SwiperSlide>
@@ -61,7 +65,7 @@ function HeroSlider() {
                                 <p>Windows Xp/10/7/8 Ps3, TV Box</p>
                                 <Link to="/" className='btn'>Shop Now</Link>
                             </div>
-                            <img src="./src/assets/img/banner_Hero3.jpg" alt="hero3" />
+                            <img src={hero3} alt="hero3" />
                         </SwiperSlide>
                     </Swiper>
                 </div>
