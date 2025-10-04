@@ -21,7 +21,7 @@ function HeroSlider() {
 
         <>
 
-            <div className="</div>hero">
+            <div className="hero">
                 <div className="container">
                     <Swiper
                         spaceBetween={30}

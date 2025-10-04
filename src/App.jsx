@@ -16,6 +16,7 @@ import Favorites from "./pages/Favorites/Favorites"
 import All_Products from "./pages/Products/All_Products"
 import About from "./pages/About/About"
 import Contact from "./pages/Contact/Contact"
+import PageNotFound from "./pages/Pagenotfound/PageNotFound"
 
 
 
@@ -52,6 +53,8 @@ function App() {
           <Route path="/search" element={<Search />} />
           <Route path="/products/:id" element={<ProductDetails />} />
           <Route path="/category/:category" element={<CategoryPage />} />
+          <Route path="*" element={<PageNotFound />} />
+          <Route path="/products/*" element={<PageNotFound />} />
         </Routes>
       </AnimatePresence>
 
